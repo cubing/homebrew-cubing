@@ -29,16 +29,3 @@ index 0000000..89ba27c
 +#!/usr/bin/env bash
 +
 +python HOMEBREW_PREFIX/Cellar/algexplorer/2/algexplorer.py "$@"
-diff --git a/algexplorer.py b/algexplorer.py
-index 3fe0333..d082c94 100644
---- a/algexplorer.py
-+++ b/algexplorer.py
-@@ -21,7 +21,7 @@ if __name__ == "__main__":
-     if "-m" in flags: # model
-         ftrained = flags[flags.index("-m") + 1]
-     else:
--        ftrained = "trained.txt"
-+        ftrained = os.path.join(os.path.dirname(__file__), "trained.txt")
-
-     if "-c" in flags: # collect
-         fcollection = flags[flags.index("-t") + 1]
