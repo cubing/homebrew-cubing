@@ -15,10 +15,6 @@ class Acube444 < Formula
     prefix.install "AQb4.jar"
     bin.install "acube444"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

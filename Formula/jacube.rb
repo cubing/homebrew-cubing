@@ -15,10 +15,6 @@ class Jacube < Formula
     prefix.install "ACube3.jar"
     bin.install "jacube"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

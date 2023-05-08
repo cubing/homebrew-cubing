@@ -14,10 +14,6 @@ class Llminxsolver < Formula
     prefix.install "llminxsolver.jar"
     bin.install "llminxsolver-gui"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

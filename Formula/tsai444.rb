@@ -15,10 +15,6 @@ class Tsai444 < Formula
     prefix.install "solver4x4x4/solver8v2.exe"
     bin.install "tsai444-8step-v2"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

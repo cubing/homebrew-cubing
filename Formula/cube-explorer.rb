@@ -18,10 +18,6 @@ class CubeExplorer < Formula
     prefix.install "cube513qtm.exe"
     bin.install "cube-explorer-qtm"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

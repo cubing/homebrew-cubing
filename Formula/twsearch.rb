@@ -7,8 +7,4 @@ class Twsearch < Formula
     system "make build"
     bin.install "./build/bin/twsearch"
   end
-
-  test do
-    system "false"
-  end
 end

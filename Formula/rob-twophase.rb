@@ -10,8 +10,4 @@ class RobTwophase < Formula
     mv "twophase", "rob-twophase"
     bin.install "rob-twophase"
   end
-
-  test do
-    system "false"
-  end
 end

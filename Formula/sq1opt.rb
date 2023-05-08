@@ -39,8 +39,4 @@ class Sq1opt < Formula
     system "g++", "sq1opt.cpp", "-o", "sq1opt"
     bin.install "sq1opt"
   end
-
-  test do
-    system "false"
-  end
 end

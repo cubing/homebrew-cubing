@@ -14,8 +14,4 @@ class Reid < Formula
     bin.install "reid-optimal"
     bin.install "reid-twist"
   end
-
-  test do
-    system "false"
-  end
 end

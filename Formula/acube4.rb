@@ -16,10 +16,6 @@ class Acube4 < Formula
     prefix.install "ACube4.jar"
     bin.install "acube4"
   end
-
-  test do
-    system "false"
-  end
 end
 
 

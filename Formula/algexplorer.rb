@@ -12,10 +12,6 @@ class Algexplorer < Formula
     prefix.install "trained.txt"
     bin.install "algexplorer"
   end
-
-  test do
-    system "false"
-  end
 end
 
 
