@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Reid < Formula
   desc "Michael Reid's optimal solver."
   homepage "http://www.cflmath.com/~reid/Rubik/optimal_solver.html"

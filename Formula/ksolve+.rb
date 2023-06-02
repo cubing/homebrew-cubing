@@ -9,9 +9,4 @@ class Ksolvex < Formula
     system "g++", "source/main.cpp", "-o", "source/ksolve+"
     bin.install "source/ksolve+"
   end
-
-  test do
-    # `test do` w
-    system "false"
-  end
 end
