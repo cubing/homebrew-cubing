@@ -1,7 +1,7 @@
 class Llminxsolver < Formula
   desc "A Megaminx LL solver by Lars Vandenbergh."
-  homepage "https://github.com/johnli0135/AlgExplorer"
-  url "http://hem.bredband.net/bunker7/llminxsolver-10.zip"
+  homepage "https://github.com/jazzthief81/llminxsolver"
+  url "https://github.com/jazzthief81/llminxsolver/releases/download/v1.0/llminxsolver-1.0.jar"
   version "1.0"
   sha256 ""
 
@@ -11,7 +11,7 @@ class Llminxsolver < Formula
   patch :DATA
 
   def install
-    prefix.install "llminxsolver.jar"
+    prefix.install "llminxsolver-1.0.jar"
     bin.install "llminxsolver-gui"
   end
 end
@@ -27,6 +27,6 @@ index 0000000..1111111
 +#!/usr/bin/env bash
 +
 +java \
-+ -cp HOMEBREW_PREFIX/Cellar/llminxsolver/1.0/llminxsolver.jar \
++ -cp HOMEBREW_PREFIX/Cellar/llminxsolver/1.0/llminxsolver-1.0.jar \
 + -Xmx512m llminx.gui.LLMinxSolverMain
 +
