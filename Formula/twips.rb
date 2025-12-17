@@ -8,9 +8,9 @@ class Twips < Formula
 
   def install
     ENV.prepend_path "PATH", Formula["rustup"].bin
-    system "rustup", "toolchain", "install", "nightly-2025-10-01"
+    system "rustup", "toolchain", "install", "nightly-2025-12-01"
 
-    system "cargo", "+nightly-2025-10-01", "install", *std_cargo_args(path: "src/cli")
+    system "cargo", "+nightly-2025-12-01", "install", *std_cargo_args(path: "src/cli")
 
     generate_completions_from_executable(bin/"twips", "completions")
   end
